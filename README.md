@@ -8,7 +8,7 @@
 1. Set your environment
 ```cmd
 :: under your working directory
-set GO111MODULE=off :: need to reset evertime you open the cmd
+set GO111MODULE=on :: need to reset evertime you open the cmd
 go mod init
 go get github.com/clearmatics/bn256 :: project on github
 ```
